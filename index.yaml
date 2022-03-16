@@ -3,13 +3,13 @@ entries:
   cwf-orc8r:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2022-03-16T18:13:18.323374608Z"
+    created: "2022-03-16T18:15:36.73830279Z"
     dependencies:
     - name: orc8rlib
       repository: file://../../../../orc8r/cloud/helm/orc8rlib
       version: 0.1.2
     description: A Helm chart for magma orchestrator's cwf module
-    digest: e609b1196359d992ae8010d83d2de10398e45af252c0d92d65fc89846b77f225
+    digest: 13b64c5efec34ef7b05157773b9e4a98648198f6f33988c91defb517fc881ffc
     keywords:
     - magma
     - or8cr
@@ -23,13 +23,13 @@ entries:
   fbinternal-orc8r:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2022-03-16T18:13:18.32440664Z"
+    created: "2022-03-16T18:15:36.73927522Z"
     dependencies:
     - name: orc8rlib
       repository: file://../../../../orc8r/cloud/helm/orc8rlib
       version: 0.1.2
     description: A Helm chart for magma orchestrator's fbinternal module
-    digest: d29c50bd642b5b97ffac61721ea4afb15351a23cd0efc9e53ec1f68a713fd534
+    digest: 041e696e1334f7b2d9d8b599a527cbbb0f29a0f6d40b5329be6344723e2917c8
     keywords:
     - magma
     - or8cr
@@ -43,13 +43,13 @@ entries:
   feg-orc8r:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2022-03-16T18:13:18.325516697Z"
+    created: "2022-03-16T18:15:36.740287171Z"
     dependencies:
     - name: orc8rlib
       repository: file://../../../../orc8r/cloud/helm/orc8rlib
       version: 0.1.2
     description: A Helm chart for magma orchestrator's feg module
-    digest: ee1d424aee4d2d1b1a0ed393b9c2ff7677e5dbeb702f88bc7d2e55373189f099
+    digest: d7a6e73b93d54318f3037e90e0f4b4953f41a5b8ea3672891da35ba1804973e9
     keywords:
     - magma
     - or8cr
@@ -63,13 +63,13 @@ entries:
   lte-orc8r:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2022-03-16T18:13:18.32656962Z"
+    created: "2022-03-16T18:15:36.741252111Z"
     dependencies:
     - name: orc8rlib
       repository: file://../../../../orc8r/cloud/helm/orc8rlib
       version: 0.1.2
     description: A Helm chart for magma orchestrator's lte module
-    digest: 7d4bea319d01413dc3a6f72eb8881d6fb11f82766213dcf3d83296b718d98fc2
+    digest: fa00bf7dc2850958c2480289778299b41b472b3b78b8e846f78b1f2d6206d228
     keywords:
     - magma
     - or8cr
@@ -83,7 +83,7 @@ entries:
   orc8r:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2022-03-16T18:13:18.336270458Z"
+    created: "2022-03-16T18:15:36.750887869Z"
     dependencies:
     - condition: secrets.create
       name: secrets
@@ -105,7 +105,7 @@ entries:
       repository: file://../orc8rlib
       version: 0.1.2
     description: A Helm chart for magma orchestrator
-    digest: 7d153088b530332f0f95c5e577a27a2b62d266f20c7502a76634f22551725e9b
+    digest: d361dfb379bde9f20e756e6e03f302e638a7eeb835cb15f7d4d8f953da59f28f
     keywords:
     - magma
     - or8cr
@@ -118,13 +118,13 @@ entries:
   wifi-orc8r:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2022-03-16T18:13:18.337068693Z"
+    created: "2022-03-16T18:15:36.751675618Z"
     dependencies:
     - name: orc8rlib
       repository: file://../../../../orc8r/cloud/helm/orc8rlib
       version: 0.1.2
     description: A Helm chart for magma orchestrator's wifi module
-    digest: 5cbee79fa228b81e77b3098014d0efe24d6ee5e818c39325c1b9f815304c2a2f
+    digest: 9157722c0712cd2d32137fad5d1cbb5feb687b15b693de4ba48fa58083885979
     keywords:
     - magma
     - or8cr
@@ -135,4 +135,4 @@ entries:
     urls:
     - wifi-orc8r-0.2.1.tgz
     version: 0.2.1
-generated: "2022-03-16T18:13:18.322289514Z"
+generated: "2022-03-16T18:15:36.737345596Z"
